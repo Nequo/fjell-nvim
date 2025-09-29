@@ -8,11 +8,11 @@ local p = require("fjell.colors")
 local isDark = vim.o.background == "dark"
 
 local c = p.dark
--- if isDark then
---     c = p.dark
--- else
---     c = p.light
--- end
+if isDark then
+    c = p.dark
+else
+    c = p.light
+end
 
 local hl = vim.api.nvim_set_hl
 
@@ -25,10 +25,10 @@ hl(0, "QuickFixLine", { fg = c.none, bg = c.base02 })
 hl(0, "Error", { fg = c.red, bg = c.base01 })
 hl(0, "LineNr", { fg = c.base04, bg = c.base01 })
 hl(0, "NonText", { fg = c.base03, bg = c.none })
-hl(0, "Normal", { fg = c.foreground, bg = c.none })
+hl(0, "Normal", { fg = c.foreground, bg = c.base00 })
 hl(0, "NormalFloat", { fg = c.foreground, bg = c.base01 })
 hl(0, "StatusLine", { fg = c.base00, bg = c.brown })
-hl(0, "Winbar", { fg = c.base00, bg = c.base05 })
+hl(0, "Winbar", { fg = c.base00, bg = c.brown })
 hl(0, "WinbarNC", { fg = c.base06, bg = c.base01 })
 hl(0, "Pmenu", { fg = c.foreground, bg = c.base01 })
 hl(0, "PmenuSbar", { fg = c.foreground, bg = c.base01 })
@@ -44,7 +44,7 @@ hl(0, "Macro", { fg = c.foreground, bg = c.none })
 hl(0, "Folded", { fg = c.base03, bg = c.base02 })
 hl(0, "FoldColumn", { fg = c.base02, bg = c.base00 })
 hl(0, "SignColumn", { fg = c.base02, bg = c.base01 })
-hl(0, "MatchParen", { fg = c.pink, bg = c.base03, underline = true })
+hl(0, "MatchParen", { fg = c.base00, bg = c.cyan, underline = true })
 hl(0, "IncSearch", { fg = c.base00, bg = c.blue })
 hl(0, "CurSearch", { fg = c.base00, bg = c.blue })
 hl(0, "Search", { fg = c.base00, bg = c.yellow })
