@@ -1,6 +1,8 @@
 # Fjell
 
-Fjell is a minimal colorscheme based on [Mies](https://github.com/jaredgorski/Mies.vim) and [Mountain](https://github.com/mountain-theme/Mountain/blob/master/docs/fuji.org)
+Fjell is a minimal colorscheme based on [Mies](https://github.com/jaredgorski/Mies.vim) and [Mountain](https://github.com/mountain-theme/Mountain/blob/master/docs/fuji.org).
+
+The light variant uses colors from [Modus Operandi Tinted](https://protesilaos.com/emacs/modus-themes-colors)
 
 ## Design
 
