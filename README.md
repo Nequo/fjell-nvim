@@ -10,3 +10,4 @@ The theme simply uses `vim.api.nvim_set_hl` to set highlight colors and does not
 Color is only used for non-syntax elements such as LSP Diagnostics, search and menus.
 
 ## Screenshot
+<img width="1512" height="945" alt="image" src="https://github.com/user-attachments/assets/2410145d-8207-45f0-bb7e-56509d24fa15" />
