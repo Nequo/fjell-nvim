@@ -18,17 +18,23 @@ colors.dark = {
 	brown = "#9B8B7E",
 	none = "NONE",
 	Selection = "#49483E",
+	diffAdded = "#2a3f2a",
+	diffAddedLine = "#374f37",
+	diffRemoved = "#3f2a2a",
+	diffRemovedLine = "#4f3737",
+	diffChanged = "#3f3f2a",
+	diffChangedLine = "#4f4f37",
 }
 
 colors.light = {
-	base00 = "#F5F5F5",
-	base01 = "#E8E8E8",
-	base02 = "#D4D4D4",
-	base03 = "#B8B8B8",
-	base04 = "#A0A0A0",
-	base05 = "#767676",
-	base06 = "#3F3F3F",
-	foreground = "#2A2A2A",
+	base00 = "#fbf7f0",
+	base01 = "#efe9dd",
+	base02 = "#dfd5cf",
+	base03 = "#c9b9b0",
+	base04 = "#9f9690",
+	base05 = "#766860",
+	base06 = "#5c3f3d",
+	foreground = "#3a2826",
 	cyan = "#3A6A69",
 	blue = "#4F6590",
 	purple = "#4F4A6C",
@@ -39,6 +45,13 @@ colors.light = {
 	brown = "#9B8B7E",
 	none = "NONE",
 	Selection = "#E8D5C8",
+
+	diffAdded = "#d4f3d0",
+	diffAddedLine = "#b8e6b0",
+	diffRemoved = "#ffd7d5",
+	diffRemovedLine = "#ffc1be",
+	diffChanged = "#fff4c8",
+	diffChangedLine = "#ffe69c",
 }
 
 return colors

@@ -1,53 +1,21 @@
-# # Doric-Marble Colors
-# background = #ededed
-# foreground = #202020
-# selection-background = #b0b0b0
-# selection-foreground = #202020
-# cursor-color = #403030
-#
-# # black
-# palette = 0=#dfdfdf
-# palette = 8=#dfdfdf
-# # red
-# palette = 1=#750000
-# palette = 9=#750000
-# # green
-# palette = 2=#056100
-# palette = 10=#056100
-# # yellow
-# palette = 3=#5f4602
-# palette = 11=#5f4602
-# # blue
-# palette = 4=#353362
-# palette = 12=#353362
-# # magenta
-# palette = 5=#553372
-# palette = 13=#553372
-# # cyan
-# palette = 6=#35485e
-# palette = 14=#35485e
-# # white
-# palette = 7=#202020
-# palette = 15=#202020
-background = #F5F5F5
-foreground = #2A2A2A
-selection-background = #E8D5C8
-selection-foreground = #2A2A2A
-cursor-color = #403030
-cursor-text = #E8E8E8
-palette = 0=#E8E8E8
-palette = 1=#84342E
-palette = 2=#4A6C4B
-palette = 3=#866539
-palette = 4=#4F6590
-palette = 5=#4F4A6C
-palette = 6=#3A6A69
-palette = 7=#767676
-palette = 8=#3F3F3F
+background = #fbf7f0
+foreground = #3a2826
+selection-background = #f0c1cf
+selection-foreground = #3a2826
+cursor-color = #5c3f3d
+cursor-text = #efe9dd
+palette = 1=#a82820
+palette = 2=#2d7a1f
+palette = 3=#8b6000
+palette = 4=#3d5a9f
+palette = 5=#6b4a8d
+palette = 6=#2a7f7d
+palette = 7=#766860
+palette = 8=#5c3f3d
 palette = 9=#84342E
 palette = 10=#4A6C4B
 palette = 11=#866539
 palette = 12=#4F6590
 palette = 13=#844E84
 palette = 14=#3A6A69
-palette = 15=#2A2A2A
+palette = 15=#3a2826
