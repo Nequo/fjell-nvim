@@ -24,6 +24,12 @@ colors.dark = {
 	diffRemovedLine = "#4f3737",
 	diffChanged = "#3f3f2a",
 	diffChangedLine = "#4f4f37",
+	alternate_diffAdded = "#303099",
+	alternate_diffAddedLine = "#4040a9",
+	alternate_diffRemoved = "#553d00",
+	alternate_diffRemovedLine = "#654d10",
+	alternate_diffChanged = "#6f1343",
+	alternate_diffChangedLine = "#7f2353",
 }
 
 colors.light = {
@@ -52,6 +58,12 @@ colors.light = {
 	diffRemovedLine = "#ffc1be",
 	diffChanged = "#fff4c8",
 	diffChangedLine = "#ffe69c",
+	alternate_diffAdded = "#d5d7ff",
+	alternate_diffAddedLine = "#e6e6ff",
+	alternate_diffRemoved = "#f4f099",
+	alternate_diffRemovedLine = "#f6f6b7",
+	alternate_diffChanged = "#eecfdf",
+	alternate_diffChangedLine = "#f0dde5",
 }
 
 return colors

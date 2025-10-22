@@ -1,2 +1,2 @@
 package.loaded.fjell = nil
-require([[fjell]])
+require([[fjell]]).load()
